@@ -8,9 +8,9 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "build": "tsc",
-    "watch": "tsc -w",
-    "start": "yarn run build && electron ./dist/main.js"
+    "build": "tsc && elm make src/HomePage.elm --output ./dist/elm.js",
+    "build-tsc": "",
+    "start": "yarn run build && electron ./dist/elm.js"
   },
   "devDependencies": {
     "@types/electron": "^1.6.10",

@@ -1,3 +1,6 @@
+// DEPRECATED in favor of Elm for main application handling.
+// Will consider use of 
+
 import { app, BrowserWindow } from "electron";
 import * as path from "path";
 
